@@ -14,7 +14,7 @@ body {
   padding-left: 100px;
   margin: 0 auto;
   background-color: rgb(184, 179, 179);
-  width: 1440px;
+  max-width: 1440px;
 height: 800px;
 margin-bottom: -600px;
 }
