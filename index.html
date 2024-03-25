@@ -3,61 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home food</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Tinos:regular,italic,700,700italic"
+      rel="stylesheet"
+    />
+    <title>Home_best_food</title>
   </head>
   <body>
-    <header class="wrap_header">
-      <div class="logo">
-        <img src="LOGO.png" alt="logo" />
-      </div>
-      <nav class="navigation">
-        <ul>
-          <li><a href="#">ГЛАВНАЯ</a></li>
-          <li><a href="#">МЕНЮ</a></li>
-          <li><a href="#">О НАС</a></li>
-          <li><a href="#">БРОНЬ</a></li>
-        </ul>
-      </nav>
-      <div class="contact">
-        <img src="phone.png" alt="phone" />
-        <a href="+9999999"
-          ><p>+999-99-99 Свяжитесь с нами для бронирования</p></a
-        >
-      </div>
+    <header class="header">
+      <div class="wrap">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li>
+              <a href=""><img src="LOGO.svg" alt="" /></a>
+            </li>
+            <ul class="wrap-info">
+              <li><a href="#">ГЛАВНАЯ</a></li>
+              <li><a href="#">МЕНЮ</a></li>
+              <li><a href="#">О НАС</a></li>
+              <li><a href="#">БРОНЬ</a></li>
+              <li class="basket">
+                <img src="basket.svg" alt="icon" />
+              </li>
+            </ul>
+            <ul class="info">
+              <li>
+                <img src="phone.svg" alt="icon" />
+                <a href="tel:+79658889966">+7(965) 888-99-66</a>
+              </li>
 
-      <button class="buttom" type="button">Заказать столик</button>
+              <li>Свяжитесь с нами для бронирования</li>
+            </ul>
+            <button class="btn" type="button">Заказать столик</button>
+          </ul>
+        </nav>
+        <div class="container">
+          <h3>Добро пожаловать в <span>Наш ресторан</span></h3>
+          <h1 class="title">ДОМ ЛУЧШЕЙ ЕДЫ</h1>
+
+          <button class="btn" type="button">VIEW MENU</button>
+        </div>
+      </div>
     </header>
     <main class="main">
-      <div class="our_restaurant">
-        <h2>Добро пожаловать в <span>Наш ресторан</span></h2>
-        <h3>ДОМ ЛУЧШЕЙ ЕДЫ</h3>
-        <button class="buttom_2" type="button">VIEW MENU</button>
-      </div>
-
-      <div class="gallery-of-dishes">
-        <div class="card-dishes">
-          <img src="Mask Group.svg" alt="icon" />
-          <h3>Магическая <span>Атмосфера</span></h3>
-          <p>
-            В нашем заведении царит магическая атмосфера наполненная вкусными
-            ароматами
-          </p>
+      <section class="blocks">
+        <div class="gallery-of-dishes wrap">
+          <div class="card-dishes">
+            <img src="dish.svg" alt="icon" />
+            <h3>Магическая <span>Атмосфера</span></h3>
+            <p>
+              В нашем заведении царит магическая атмосфера наполненная вкусными
+              ароматами
+            </p>
+          </div>
+          <div class="card-dishes">
+            <img src="dish.svg" alt="icon" />
+            <h3>Лучшее качество <span>Еды</span></h3>
+            <p>Качество нашей Еды - отменное!</p>
+          </div>
+          <div class="card-dishes">
+            <img src="dish.svg" alt="icon" />
+            <h3>Недорогая <span>Едa</span></h3>
+            <p>
+              Стоимость нашей Еды зависит только от ее количества. Качество
+              всегда на высоте!
+            </p>
+          </div>
         </div>
-        <div class="card-dishes">
-          <img src="Mask Group.svg" alt="icon" />
-          <h3>Лучшее качество <span>Еды</span></h3>
-          <p>Качество нашей Еды - отменное!</p>
-        </div>
-        <div class="card-dishes">
-          <img src="Mask Group.svg" alt="icon" />
-          <h3>Недорогая <span>Едa</span></h3>
-          <p>
-            Стоимость нашей Еды зависит только от ее количества. Качество всегда
-            на высоте!
-          </p>
-        </div>
-      </div>
+      </section>
     </main>
   </body>
 </html>
