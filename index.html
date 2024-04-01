@@ -3,16 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Tinos:regular,italic,700,700italic"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="normalize.css">
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Tinos:regular,italic,700,700italic"
-      rel="stylesheet"
-    />
     <title>Home_best_food</title>
   </head>
   <body>
@@ -55,7 +56,9 @@
       <section class="blocks">
         <div class="gallery-of-dishes wrap">
           <div class="card-dishes">
-            <img src="dish.svg" alt="icon" />
+            <div class="dish">
+              <img src="dish.svg" alt="icon" />
+            </div>
             <h3>Магическая <span>Атмосфера</span></h3>
             <p>
               В нашем заведении царит магическая атмосфера наполненная вкусными
@@ -63,12 +66,16 @@
             </p>
           </div>
           <div class="card-dishes">
-            <img src="dish.svg" alt="icon" />
+            <div class="dish">
+              <img src="dish.svg" alt="icon" />
+            </div>
             <h3>Лучшее качество <span>Еды</span></h3>
             <p>Качество нашей Еды - отменное!</p>
           </div>
           <div class="card-dishes">
-            <img src="dish.svg" alt="icon" />
+            <div class="dish">
+              <img src="dish.svg" alt="icon" />
+            </div>
             <h3>Недорогая <span>Едa</span></h3>
             <p>
               Стоимость нашей Еды зависит только от ее количества. Качество
@@ -77,6 +84,62 @@
           </div>
         </div>
       </section>
+      <section class="our-dishes">
+        <div class="our-dishes-container_wrap">
+          <h3 class="our-dishes-title">Наши <span>Блюда</span></h3>
+          <!-- контейнер для блоков с большим бургером и маленькими -->
+          <div class="our-dishes-blocks">
+            <div class="our-dishes-pizza">
+              <img src="pizza.jpeg" alt="burger" />
+            </div>
+
+            <div class="our-dishes-burgers">
+              <!-- контейнер с мини-бургарами -->
+              <div class="our-dishes-burger">
+                <div class="burger-mini">
+                  <img src="mini_hamburger.jpeg" alt="burger" />
+                </div>
+
+                <div class="burger-mini-price">
+                  <p>Гамбургер мини</p>
+                  <p id="dot">..............</p>
+                  <p>220 ₽</p>
+                </div>
+              </div>
+              <!-- контейнер с мини-бургарами -->
+              <div class="our-dishes-burger">
+                <div class="burger-mini">
+                  <img src="mini_hamburger.jpeg" alt="burger" />
+                </div>
+
+                <div class="burger-mini-price">
+                  <p>Гамбургер мини</p>
+                  <p id="dot">..............</p>
+                  <p>220 ₽</p>
+                </div>
+              </div>
+              <!-- контейнер с мини-бургарами -->
+              <div class="our-dishes-burger">
+                <div class="burger-mini">
+                  <img src="mini_hamburger.jpeg" alt="burger" />
+                </div>
+
+                <div class="burger-mini-price">
+                  <p>Гамбургер мини</p>
+                  <p id="dot">..............</p>
+                  <p>220 ₽</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="wrap">
+        <h3 style="color: white; font-size: 50px">Good morning</h3>
+        <div class="picture"></div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -19,7 +19,6 @@
   font-weight: 400;
   line-height: 1.35;
   text-align: left;
-  
 }
 
 .wrap-info {
@@ -63,6 +62,13 @@
   font-size: 80px;
   line-height: 1.15;
 }
+.container h3:hover {
+  color: red;
+  cursor: pointer;
+  transition: all 0.4s ease 0s;
+  transform: scale(1.2);
+  transform: rotate(180deg);
+}
 
 .title {
   color: rgb(255, 255, 255);
@@ -104,11 +110,16 @@
   text-align: center;
 }
 
-.card-dishes div img {
+.card-dishes img {
   width: 87px;
   height: 87px;
 }
-
+.dish {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .card-dishes h3 {
   margin-bottom: 20px;
 }
@@ -130,3 +141,264 @@
   display: inline-block;
   margin: 5px;
 }
+
+/*  
+.container_ourdish {
+  max-width: 1129px;
+  margin: 150px 152px 150px 159px;
+  text-align: center;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.pizza {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  flex: 1 1 30%;
+  padding: 120px 20px 0px 0px;
+  margin-left: -280px;
+
+  
+}
+.pizza img {
+  width: 445px;
+  height: 478px;
+}
+
+.container_ourdish h3 {
+  font-family: "Tinos";
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.24;
+}
+  
+.container_ourdish h3 span {
+  color: rgb(214, 126, 53);
+}
+.hamburger_price h3 {
+  color: rgb(0, 0, 0);
+  font-family: "Tinos";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.15;
+  text-align: left;
+}
+.our_humburger {
+ 
+ 
+}
+.ourdish {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 70%;
+  border: 2px solid blue;
+  align-items: start;
+  margin-top: 120px;
+}
+.mini_hamburger {
+  display: flex;
+  max-width: 33.33%;
+  flex-direction: column;
+  justify-content: start;
+  border: 1px solid green;
+  gap: 3px;
+}
+
+.mini_hamburger img {
+  width: 160px;
+  height: 140px;
+}
+
+.hamburger_price {
+  max-width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 0px 0px;
+  border: 1px solid blueviolet;
+  margin-left: 410px;
+ 
+}
+
+/*  
+
+.pizza {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: end;
+  padding: 10px 20px 0px 0px;
+  margin-left: -280px;
+
+  
+}
+.pizza img {
+  width: 445px;
+  height: 478px;
+}
+
+.ourdish {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 70%;
+  border: 2px solid blue;
+  align-items: start;
+  margin-top: 120px;
+}
+
+.ourdish h3 {
+  color: rgb(0, 0, 0);
+  font-family: "Tinos";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.15;
+  text-align: left;
+}
+.our_hamburgers {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+  padding: 120px 0px 0px 0px;
+  
+ 
+}
+.mini_hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  border: 1px solid green;
+}
+
+.mini_hamburger img {
+  width: 160px;
+  height: 140px;
+}
+.hamburger_price {
+  display: flex;
+  padding: 0px 20px 0px 0px;
+  text-align: center;
+}
+.hamburger_price h3 span {
+  color: black;
+
+}
+.hamburger_price span {
+
+}
+*/
+.our-dishes {
+  padding: 132px 0px 150px;
+}
+
+.our-dishes-title {
+  margin-bottom: 132px;
+  font-family: "Tinos";
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.15;
+  text-align: center;
+}
+.our-dishes-title span {
+  color: rgb(214, 126, 53);
+}
+
+.our-dishes_container {
+}
+.our-dishes-blocks {
+  display: flex;
+  gap: 30px;
+
+  /* 1138-100
+  445-39
+  693-30 -59 */
+}
+.our-dishes-pizza {
+  max-width: 0 1 39%;
+}
+.our-dishes-pizza img {
+  width: 445px;
+  height: 478px;
+}
+.our-dishes-burgers {
+  max-width: 0 1 58%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.our-dishes-burger {
+  display: flex;
+  gap: 30px;
+}
+
+.burger-mini img {
+  width: 160px;
+  height: 140px;
+}
+.burger-mini-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.burger-mini-price p {
+  display: flex;
+}
+/*  
+.footer h3 {
+  margin-left: 500px;
+}
+.footer{
+  padding: 200px;
+  background-color: rgb(71, 71, 216);
+
+  animation: 4s 1 normal picture-sky;
+  
+}
+
+.picture{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  box-shadow: 10px 10px 40px 20px yellow;
+  background: yellow;
+
+  animation: 5s 1 normal picture-block;
+}
+
+@keyframes picture-block {
+  0% {
+    margin-top: 500px;
+    
+  }
+
+  50%{
+      
+  }
+
+  100% {
+      margin-top: 0px;
+     
+  }
+}
+
+@keyframes picture-sky {
+  0% {
+      background-color: rgb(11, 11, 60);
+  }
+
+  50%{
+  background-color: rgb(24, 24, 116);
+
+  }
+
+  100% {
+      background-color: rgb(71, 71, 216);
+  }
+}
+*/
