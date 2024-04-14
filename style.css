@@ -362,10 +362,11 @@
   line-height: 1.38;
 } /*# sourceMappingURL=style.css.map */
 
-.imagin-dishes__wrap {
+.imagin-dishes__wrap wrap {
   max-width: 1400px;
   height: 685px;
-  height: auto;
+}
+.imagin-dishes__wrap {
   margin: 0px 150px 150px 150px;
 }
 .imagin-dishes__title {
