@@ -340,6 +340,7 @@
   align-items: start;
   gap: 60px;
   margin: 150px;
+
 }
 
 .our-histiry__title {
@@ -366,6 +367,7 @@
   max-width: 1400px;
   height: 685px;
   margin: 0px 150px 150px 150px;
+ 
 }
 .imagin-dishes__wrap {
  
@@ -383,12 +385,13 @@
   color: rgb(214, 126, 52);
 }
 .imagin-dishes__all-dishes {
-  max-width: 1078px;
+  max-width: 1250px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 15px;
   padding-bottom: 150px;
+  padding-left: 150px;
 }
 .imagin-dishes__glass {
   width: 538px;
