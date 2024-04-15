@@ -389,32 +389,39 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 20px;
   padding-bottom: 150px;
-  padding-left: 150px;
+  
 }
 .imagin-dishes__glass {
+  max-width: 0 0 51.34%;
+  /* 
   width: 538px;
   height: 274px;
+   */
 }
 .imagin-dishes__coffee {
+  max-width: 0 0 24.33%;
+
+  /*  
   width: 255px;
   height: 274px;
+  */
 }
 .imagin-dishes__soup {
+  max-width: 0 0 24.33%;
+  /*  
   width: 253px;
   height: 274px;
+  */
 }
 .imagin-dishes__coffee-2 {
-  width: 255px;
-  height: 274px;
+  max-width: 0 0 24.33%;
 }
 .imagin-dishes__soup-2 {
-  width: 253px;
-  height: 274px;
+  max-width: 0 0 24.33%;
 }
 .imagin-dishes__glass-2 {
-  width: 538px;
-  height: 274px;
+  max-width: 0 0 51.34%;
   transform: rotate(180deg);
 } /*# sourceMappingURL=style.css.map */
