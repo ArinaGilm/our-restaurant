@@ -2,7 +2,6 @@
   .our-dishes-title {
     font-size: 40px;
     text-align: center;
-  
   }
   .our-dishes-blocks {
     display: flex;
@@ -30,7 +29,7 @@
   }
   .our-dishes-burgers img {
     height: auto;
-    width: 100%;+
+    width: 100%;
     max-width: 160px;
   }
   #dot {
@@ -44,5 +43,76 @@
     flex-direction: column;
     align-items: end;
     padding-top: 80px;
+  }
+}
+
+@media (max-widht: 320px) {
+  .imagin-dishes__title {
+    font-size: 40px;
+    text-align: center;
+  }
+  .imagin-cooks__all-dishes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .imagin-cooks__glass {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .imagin-cooks__coffe {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+    gap: 50px;
+  }
+  .imagin-cooks__soup {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+    gap: 50px;
+  }
+}
+
+@media (max-widht: 320px) {
+  .imagin-cooks__title {
+    font-size: 40px;
+    text-align: center;
+  }
+  .imagin-cooks__all-cooks {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .imagin-cooks__cook {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    gap: 50px;
+  }
+  .imagin-cooks__chef {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    gap: 20px;
+  }
+  .imagin-cooks__kitchener {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    gap: 20px;
+  }
+  .imagin-cooks__bar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    gap: 200px;
   }
 }
