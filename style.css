@@ -1,16 +1,15 @@
 .header {
-  background: url(bg_greetings.jpeg) 0 0 / cover no-repeat;
+  background: url(img/bg_greetings.jpeg) 0 0 / cover no-repeat;
 }
 .wrap {
-  
   max-width: 1138px;
   margin: 0 auto;
- 
 }
 .navbar {
   padding: 50px 0px;
   flex-wrap: nowrap;
-  padding-left: -215px;
+  /*  padding-left: -215px;*/
+  
 }
 .navbar-list {
   display: flex;
@@ -209,100 +208,54 @@
 .burger-mini-price p {
   display: flex;
 }
-/*  
-.footer h3 {
-  margin-left: 500px;
-}
-.footer{
-  padding: 200px;
-  background-color: rgb(71, 71, 216);
-
-  animation: 4s 1 normal picture-sky;
-  
-}
-
-.picture{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-
-  box-shadow: 10px 10px 40px 20px yellow;
-  background: yellow;
-
-  animation: 5s 1 normal picture-block;
-}
-
-@keyframes picture-block {
-  0% {
-    margin-top: 500px;
-    
-  }
-
-  50%{
-      
-  }
-
-  100% {
-      margin-top: 0px;
-     
-  }
-}
-
-@keyframes picture-sky {
-  0% {
-      background-color: rgb(11, 11, 60);
-  }
-
-  50%{
-  background-color: rgb(24, 24, 116);
-
-  }
-
-  100% {
-      background-color: rgb(71, 71, 216);
-  }
-}
-*/
 
 .our-history {
-  display: flex;
-  max-width: 1400px;
-  height: auto;
+  max-width: 1138px;
+  margin: 0 auto;
 }
-.our-history__view {
+.our-history__wrap wrap {
+  margin: 150px;
+  max-width: 100%;
+}
+.our-histor__container {
   display: flex;
-  align-items: center;
-  justify-content: start;
+  flex: 1 1 52.55%;
+  flex-direction: column;
   gap: 60px;
   text-align: center;
-  padding-left: 50px;
+  padding-top: 150px;
 }
-.our-history__number-drinks span {
+.our-histiry__title {
+  max-width: 52.55%;
+  font-family: "Tinos";
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+.our-histiry__title span {
   color: rgb(214, 126, 52);
-  font-family: "Open Sans";
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 1.35;
 }
-.our-history__number-drinks p {
+.our-histiry__text {
+  max-width: 52.55%;
+  text-align: center;
+  color: rgb(101, 99, 99);
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 1.38;
 }
-.our-history__number-ate span {
-  color: rgb(214, 126, 52);
-  font-family: "Open Sans";
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 1.35;
+.our-history__view {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+  /*  
+  padding-left: 50px;*/
 }
-.our-history__number-ate p {
-  font-family: "Open Sans";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.35;
-}
+
+.our-history__number-drinks span,
+.our-history__number-ate span,
 .our-history__number-snacks span {
   color: rgb(214, 126, 52);
   font-family: "Open Sans";
@@ -310,40 +263,78 @@
   font-weight: 400;
   line-height: 1.35;
 }
+.our-history__number-drinks p,
+.our-history__number-ate p,
 .our-history__number-snacks p {
   font-family: "Open Sans";
   font-size: 20px;
   font-weight: 400;
   line-height: 1.35;
 }
+
 .our-history__photo {
-  display: flex;
+  position: relative;
+  top: -340px;
+  left: 600px;
+  padding-bottom: 150px;
+
+
+  /* display: flex;
   flex-direction: column;
+  align-items: end;
+  flex: 1 1 47.45%;
+  margin-top: -380px;
+
   margin-top: 120px;
+ */
 }
 .our-history__photo-cake {
-  margin-left: 100px;
+  position: absolute;
+  top: -120px;
+  left: 190px;
 }
 .our-history__photo-spices {
-  margin-top: -400px;
-  margin-left: -100px;
+  position: absolute;
+  top: -100px;
+  left: 10px;
 }
 .our-history__photo-window {
-  margin-left: 230px;
-  margin-top: -200px;
+  position: absolute;
+  left: 280px;
+  top: 70px;
 }
-
-.our-histor__container {
-  max-width: 440px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  gap: 60px;
+/*# sourceMappingURL=style.css.map */
+.dish {
+  max-width: 1138px;
+  margin: 0 auto;
+}
+.dishes__wrap wrap {
   margin: 150px;
 }
+.dishes__all-picture {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
-.our-histiry__title {
+.dishes__big-picture {
+  flex: 1 1 49%;
+  transform: rotate(180deg);
+}
+
+.dishes__small-picture {
+  flex: 1 1 24%;
+}
+
+.dishes__big-picture img,
+.dishes__small-picture img {
+  width: 100%;
+  height: 100%;
+}
+.dishes__title {
   text-align: center;
   font-family: "Tinos";
   font-size: 54px;
@@ -351,76 +342,14 @@
   line-height: 1.15;
   padding-left: 50px;
 }
-.our-histiry__title span {
+.dishes__title span {
   color: rgb(214, 126, 52);
 }
-.our-histiry__text {
-  text-align: center;
-  color: rgb(101, 99, 99);
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.38;
-} /*# sourceMappingURL=style.css.map */
 
-.imagin-dishes__wrap wrap {
-  max-width: 1400px;
-  height: 685px;
-
-}
-.imagin-dishes__wrap {
-}
-.imagin-dishes__title {
-  text-align: center;
-  font-family: "Tinos";
-  font-size: 54px;
-  font-weight: 400;
-  line-height: 1.15;
-  margin-bottom: 60px;
-}
-.imagin-dishes__title span {
-  color: rgb(214, 126, 52);
-}
-.imagin-dishes__all-dishes {
-  max-width: 1250px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding-bottom: 150px;
-  padding-left: 42px;
-}
-.imagin-dishes__glass {
-  flex: 0 1 49.63%;
-  transform: rotate(180deg);
-  /* 
-  width: 538px;
-  height: 274px;
-   */
-}
-.imagin-dishes__coffee {
-  flex: 0 1 23.52%;
-
-  /*  
-  width: 255px;
-  height: 274px;
-  */
-}
-.imagin-dishes__soup {
-  flex: 0 1 21.22%;
-  /*  
-  width: 253px;
-  height: 274px;
-  */
-}
 /*# sourceMappingURL=style.css.map */
 .imagin-cooks__wrap wrap {
-  max-width: 1440px;
-  height: auto;
-
-}
-.imagin-cooks__wrap {
- 
+  max-width: 1138px;
+  margin: 0 auto;
 }
 .imagin-cooks__title {
   text-align: center;
@@ -435,26 +364,24 @@
 .imagin-cooks__all-cooks {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 20px;
   padding-top: 50px;
-  
 }
 .imagin-cooks__cook {
-  flex: 0 1 32.10%;
+  flex: 0 1 33.33%;
 }
 .imagin-cooks__chef {
-  max-width:  0 1 32.10%;
+  flex: 0 1 33.33%;
 }
 .imagin-cooks__kitchener {
-  max-width:  0 1 32.10%;
+  flex: 0 1 33.34%;
 }
-.imagin-cooks__bar {
-  max-width: 1440px;
-  height: 732px;
-  padding-top: 20px;
-  margin-left: -150px;
- 
- 
 
-}/*# sourceMappingURL=style.css.map */
+.footer {
+  height: 100%;
+  margin-top: 50px;
+  background: url(img/bar.jpeg) 0 0 / cover no-repeat;
+}
+
+/*# sourceMappingURL=style.css.map */

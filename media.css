@@ -8,7 +8,7 @@
     flex-wrap: wrap;
   }
   .our-dishes-pizza {
-    background-image: url(pizza.jpeg);
+    background-image: url(img/pizza.jpeg);
     background-size: cover;
   }
   /* 
@@ -45,34 +45,24 @@
     padding-top: 80px;
   }
 }
-
-@media (max-widht: 320px) {
-  .imagin-dishes__title {
+@media (max-width: 544px) {
+  .dishes__title {
     font-size: 40px;
     text-align: center;
   }
-  .imagin-cooks__all-dishes {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+
+  .dishes__small-picture {
+    flex: 1 1 47%;
   }
-  .imagin-cooks__glass {
-    max-width: 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+
+  .dishes__big-picture {
+    flex: 1 1 100%;
   }
-  .imagin-cooks__coffe {
-    display: flex;
-    flex-direction: column;
-    padding-right: 5px;
-    gap: 50px;
-  }
-  .imagin-cooks__soup {
-    display: flex;
-    flex-direction: column;
-    padding-right: 5px;
-    gap: 50px;
+
+  .dishes__big-picture img,
+  .dishes__small-picture img {
+    width: 100%;
+    height: auto;
   }
 }
 
