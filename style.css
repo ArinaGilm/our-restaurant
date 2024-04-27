@@ -208,6 +208,9 @@
 .burger-mini-price p {
   display: flex;
 }
+#dot {
+    font-size: 20px;
+}
 
 .our-history {
   max-width: 1138px;
