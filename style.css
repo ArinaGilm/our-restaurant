@@ -9,7 +9,6 @@
   padding: 50px 0px;
   flex-wrap: nowrap;
   /*  padding-left: -215px;*/
-  
 }
 .navbar-list {
   display: flex;
@@ -25,7 +24,10 @@
 .wrap-info {
   display: flex;
   gap: 20px;
+  align-items: center;
+  /*  
   margin-left: 250px;
+  */
 }
 .wrap-info li {
   color: white;
@@ -34,11 +36,16 @@
   color: white;
 }
 .basket {
-  border-right: 1px solid white;
-  height: 51px;
+  display: flex;
+  justify-content: center;
   padding: 0px 20px;
 }
-
+.basket::after {
+  content: " ";
+  border-right: 1px solid white;
+  height: 50px;
+  margin-left: 20px;
+}
 .info li a {
   color: white;
 }
@@ -46,7 +53,15 @@
   max-width: 200px;
   color: white;
 }
-
+.btn_order {
+  color: white;
+  background-color: rgb(214, 126, 52);
+  padding: 15px 52px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+}
 .container {
   max-width: 485px;
   padding: 154px 0px 300px 0px;
@@ -79,19 +94,17 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
+  padding-bottom: 15px;
 }
-.btn {
+.btn_menu {
   color: white;
   background-color: rgb(214, 126, 52);
-  max-width: 157px;
-  height: 46px;
-  padding: 8px 24px;
+  padding: 19px 47px;
   cursor: pointer;
   text-decoration: none;
   border: none;
   text-align: center;
 }
-
 .gallery-of-dishes {
   display: flex;
   gap: 31px;
@@ -149,8 +162,9 @@
   color: black;
 }
 .hamburger_price span {
+  color: rgb(188, 144, 96);
 }
-*/ .our-dishes {
+.our-dishes {
   padding: 132px 0px 150px;
 }
 
@@ -167,29 +181,39 @@
   color: rgb(214, 126, 53);
 }
 
-.our-dishes_container {
+.burger-mini-price {
+  display: flex;
+  justify-content: space-between;
 }
+
+.burger-mini-price p:nth-child(2) {
+  flex: 1 0;
+  border-bottom: 4px dotted #000;
+  height: 10px;
+  margin: 0 4px;
+}
+
 .our-dishes-blocks {
   display: flex;
   gap: 30px;
+}
 
-  /* 1138-100
-  445-39
-  693-30 -59 */
-}
 .our-dishes-pizza {
-  max-width: 0 1 39%;
+  flex: 0 1 39%;
 }
+
 .our-dishes-pizza img {
   width: 445px;
   height: 478px;
 }
+
 .our-dishes-burgers {
-  max-width: 0 1 58%;
+  flex: 0 1 58%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .our-dishes-burger {
   display: flex;
   gap: 30px;
@@ -199,17 +223,16 @@
   width: 160px;
   height: 140px;
 }
+
 .burger-mini-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
+
 .burger-mini-price p {
   display: flex;
-}
-#dot {
-    font-size: 20px;
 }
 
 .our-history {
@@ -280,7 +303,6 @@
   top: -340px;
   left: 600px;
   padding-bottom: 150px;
-
 
   /* display: flex;
   flex-direction: column;

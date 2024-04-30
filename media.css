@@ -3,24 +3,69 @@
     background: url(img/bg_greetings.jpeg);
     background-size: cover;
   }
-  .container h3 {
-    font-size: 20px;
-    color: blue;
+  .wrap {
+    padding: 0px 15px;
+  }
+  .navbar-list ul li {
+    font-size: 10px;
+  }
+  .call {
+    display: none;
+  }
+  .info {
+    padding: 0px 15px;
+    text-align: center;
+  }
+
+  .tel {
+    padding-top: 18px;
+  }
+
+  /*  не работает - не понятно почему
+  .wrap-info {
+    display: flex;
+    padding: 0px 20px;
+    gap: 10px;
+  }
+   
+  .basket {
+    padding: 0px 5px;
+    text-align: center;
+  }
+   
+  .wrap-info {
+    display: flex;
+    gap: 10px;
+  }
+
+ .btn {
+  padding: 13px 24px;
+ }
+
+ .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+
+  }
+  */
+  .container {
+    margin-left: 150px;
   }
 
   .container h3 span {
-    font-size: 30px;
+    font-size: 40px;
   }
-
-  .button {
-    display: none;
+  .container h3 span {
+    font-size: 50px;
   }
-
+}
+@media (max-width: 768px) {
   .gallery-of-dishes {
-    gap: 15px;
-    margin-top: -80px;
-    align-items: center;
+    display: flex;
     flex-direction: column;
+    gap: 15px;
   }
 }
 
@@ -37,14 +82,6 @@
     background-image: url(img/pizza.jpeg);
     background-size: cover;
   }
-  /* 
-  .our-dishes-pizza img {
-    object-fit: cover;
-    height: 674px;
-    width: 768px;
-    margin: 0px;
-  }
-   */
 
   .our-dishes-burgers {
     display: flex;
@@ -56,19 +93,51 @@
   .our-dishes-burgers img {
     height: auto;
     width: 100%;
-    max-width: 160px;
   }
-  #dot {
-    display: none;
-  }
+ 
   .burger-mini-price {
     display: flex;
-    height: 30%;
-    max-width: 167px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    align-items: end;
-    padding-top: 80px;
+    font-size: 18px;
+    padding-left: 120px;
+    padding-top: 30px;
+    height: 50%;
+  }
+}
+@media (max-widxh: 768px) {
+  .our-history {
+    padding: 0px 15px;
+  }
+
+  .our-histor__container {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding: 0px 15px;
+  }
+
+  .our-history__view {
+    display: flex;
+    flex: 1 1 100%;
+    gap: 50px;
+    padding: 0px 15px;
+  }
+  .our-history__photo {
+    position: relative;
+  }
+  .our-history__photo-cake {
+    position: absolute;
+  }
+  .our-history__number-drinks {
+    position: absolute;
+  }
+  .our-history__photo-window {
+    position: absolute;
   }
 }
 @media (max-width: 544px) {
@@ -92,43 +161,30 @@
   }
 }
 
-@media (max-widht: 320px) {
+@media (max-widht: 768px) {
   .imagin-cooks__title {
     font-size: 40px;
     text-align: center;
   }
   .imagin-cooks__all-cooks {
-    display: flex;
-    flex-wrap: wrap;
+    gap: 5px;
   }
 
   .imagin-cooks__cook {
-    display: flex;
-    flex-direction: column;
-    padding-left: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
-    gap: 50px;
+    flex: 1 1 33%;
   }
   .imagin-cooks__chef {
-    display: flex;
-    flex-direction: column;
-    padding-left: 5px;
-    padding-right: 5px;
-    gap: 20px;
+    flex: 1 1 33%;
   }
   .imagin-cooks__kitchener {
-    display: flex;
-    flex-direction: column;
-    padding-left: 5px;
-    padding-right: 5px;
-    gap: 20px;
+    flex: 1 1 33%;
   }
-  .imagin-cooks__bar {
-    display: flex;
-    flex-direction: column;
-    padding-left: 5px;
-    padding-right: 5px;
-    gap: 200px;
+
+  .imagin-cooks__chef img,
+  .imagin-cooks__cook img,
+  .imagin-cooks__kitchener img {
+    width: 100%;
+    height: auto;
   }
+  
 }
