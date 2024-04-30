@@ -51,7 +51,7 @@
   }
   */
   .container {
-    margin-left: 150px;
+    margin: 0 auto;
   }
 
   .container h3 span {
@@ -109,7 +109,7 @@
 }
 @media (max-widxh: 768px) {
   .our-history {
-    padding: 0px 15px;
+    margin: 0 auto;
   }
 
   .our-histor__container {
@@ -122,22 +122,33 @@
   }
 
   .our-history__view {
-    display: flex;
     flex: 1 1 100%;
     gap: 50px;
     padding: 0px 15px;
   }
   .our-history__photo {
     position: relative;
+    flex-wrap: wrap;
+    
+    
   }
   .our-history__photo-cake {
     position: absolute;
+    flex: 1 1 100%;
   }
   .our-history__number-drinks {
     position: absolute;
+    flex: 1 1 100%;
   }
   .our-history__photo-window {
     position: absolute;
+    flex: 1 1 100%;
+  } 
+  .our-history__photo-cake img,
+  .our-history__photo-spices img,
+  .our-history__photo-window {
+    width: 100%;
+    height: auto;
   }
 }
 @media (max-width: 544px) {
@@ -166,25 +177,21 @@
     font-size: 40px;
     text-align: center;
   }
-  .imagin-cooks__all-cooks {
+  .imagin-cooks__all-cooks{
     gap: 5px;
   }
 
-  .imagin-cooks__cook {
-    flex: 1 1 33%;
+  .imagin-cooks__cook img {
+   max-width: 350px;
+   width: 100%;
   }
-  .imagin-cooks__chef {
-    flex: 1 1 33%;
+  .imagin-cooks__chef img {
+    max-width: 350px;
+    width: 100%;
   }
-  .imagin-cooks__kitchener {
-    flex: 1 1 33%;
+  .imagin-cooks__kitchener img {
+    max-width: 350px;
+   width: 100%;
   }
 
-  .imagin-cooks__chef img,
-  .imagin-cooks__cook img,
-  .imagin-cooks__kitchener img {
-    width: 100%;
-    height: auto;
-  }
-  
 }
