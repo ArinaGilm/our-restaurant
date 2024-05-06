@@ -21,35 +21,6 @@
     padding-top: 18px;
   }
 
-  /*  не работает - не понятно почему
-  .wrap-info {
-    display: flex;
-    padding: 0px 20px;
-    gap: 10px;
-  }
-   
-  .basket {
-    padding: 0px 5px;
-    text-align: center;
-  }
-   
-  .wrap-info {
-    display: flex;
-    gap: 10px;
-  }
-
- .btn {
-  padding: 13px 24px;
- }
-
- .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: red;
-
-  }
-  */
   .container {
     margin: 0 auto;
   }
@@ -94,7 +65,7 @@
     height: auto;
     width: 100%;
   }
- 
+
   .burger-mini-price {
     display: flex;
     text-align: center;
@@ -107,43 +78,37 @@
     height: 50%;
   }
 }
-@media (max-widxh: 768px) {
+@media (max-width: 768px) {
   .our-history {
     margin: 0 auto;
   }
 
-  .our-histor__container {
-    display: flex;
+  .our-history__container {
+    justify-content: center;
     flex: 1 1 100%;
-    flex-direction: column;
-    gap: 30px;
-    text-align: center;
-    padding: 0px 15px;
   }
 
   .our-history__view {
     flex: 1 1 100%;
-    gap: 50px;
-    padding: 0px 15px;
+    gap: 30px;
   }
   .our-history__photo {
-    position: relative;
     flex-wrap: wrap;
-    
-    
+    flex: 1 1 100%;
+    flex-direction: column;
+    align-items: end;
+  
+   
   }
   .our-history__photo-cake {
-    position: absolute;
-    flex: 1 1 100%;
+
   }
   .our-history__number-drinks {
-    position: absolute;
-    flex: 1 1 100%;
+
   }
   .our-history__photo-window {
-    position: absolute;
-    flex: 1 1 100%;
-  } 
+
+  }
   .our-history__photo-cake img,
   .our-history__photo-spices img,
   .our-history__photo-window {
@@ -172,18 +137,18 @@
   }
 }
 
-@media (max-widht: 768px) {
+@media (max-width: 768px) {
   .imagin-cooks__title {
     font-size: 40px;
     text-align: center;
   }
-  .imagin-cooks__all-cooks{
+  .imagin-cooks__all-cooks {
     gap: 5px;
   }
 
   .imagin-cooks__cook img {
-   max-width: 350px;
-   width: 100%;
+    max-width: 350px;
+    width: 100%;
   }
   .imagin-cooks__chef img {
     max-width: 350px;
@@ -191,7 +156,6 @@
   }
   .imagin-cooks__kitchener img {
     max-width: 350px;
-   width: 100%;
+    width: 100%;
   }
-
 }
