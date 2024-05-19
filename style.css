@@ -305,20 +305,20 @@
   /*  flex: 1 1 40%;  */
   flex-wrap: nowrap;
   position: relative;
-  left: -300px;
+
 }
 .our-history__photo-cake {
   position: absolute;
-  left: -80px;
+  left: -380px;
 }
 .our-history__photo-spices {
   position: absolute;
-  left: -250px;
+  left: -550px;
   top: 30px;
 }
 .our-history__photo-window {
   position: absolute;
-  left: 20px;
+  left: -280px;
   top: 200px;
 }
 /*# sourceMappingURL=style.css.map */
