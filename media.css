@@ -85,16 +85,14 @@
 
   .our-history__container {
     justify-content: center;
-    flex: 1 1 100%;
+    
   }
 
-  .our-history__view {
-    flex: 0 1 50%;
-    gap: 30px;
-  }
+  
   .our-history__photo {
-    flex: 0 1 40%;
-    left: 200px;
+
+   
+    
   }
   .our-history__photo-cake img,
   .our-history__photo-spices img,
