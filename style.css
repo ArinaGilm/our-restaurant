@@ -245,15 +245,12 @@
 }
 .our-histor__container {
   display: flex;
-  /*  
   flex: 1 1 52.55%;
-  */
   flex-direction: column;
   gap: 60px;
   text-align: center;
 }
 .our-histiry__title {
-  max-width: 52.55%;
   font-family: "Tinos";
   font-size: 54px;
   font-weight: 400;
@@ -263,7 +260,6 @@
   color: rgb(214, 126, 52);
 }
 .our-histiry__text {
-  max-width: 52.55%;
   text-align: center;
   color: rgb(101, 99, 99);
   font-family: "Open Sans";
@@ -273,7 +269,6 @@
   padding: 0px 50px;
 }
 .our-history__view {
-  max-width: 50%;
   display: flex;
   justify-content: center;
   gap: 60px;
@@ -299,7 +294,7 @@
 
 .our-history__photo {
   display: flex;
-  flex: 1 1 40%;  
+  flex: 1 1 47%;  
   position: relative;
   left: 50px;
   top: 80px;

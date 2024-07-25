@@ -81,18 +81,14 @@
 @media (max-width: 768px) {
   .our-history {
     margin: 0 auto;
+    flex-wrap: wrap;
   }
-
   .our-history__container {
     justify-content: center;
-    
-  }
-
-  
+    flex: 1 1 100%;
+  } 
   .our-history__photo {
-
-   
-    
+    flex: 1 1 100%;   
   }
   .our-history__photo-cake img,
   .our-history__photo-spices img,
