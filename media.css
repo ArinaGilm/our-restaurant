@@ -81,6 +81,8 @@
 @media (max-width: 768px) {
   .our-history {
     margin: 0 auto;
+  }
+  .our-history__wrap.wrap {
     flex-wrap: wrap;
   }
   .our-history__container {
@@ -88,15 +90,18 @@
     flex: 1 1 100%;
   } 
   .our-history__photo {
-    flex: 1 1 100%;   
+    justify-content: center;
+    flex: 1 1 100%;
+    padding-top: 40px;
   }
+  /*
   .our-history__photo-cake img,
   .our-history__photo-spices img,
   .our-history__photo-window img {
     width: 100%;
     height: auto;
   }
-  
+  */
 }
 
 @media (max-width: 544px) {
