@@ -88,7 +88,7 @@
   .our-history__container {
     justify-content: center;
     flex: 1 1 100%;
-  } 
+  }
   .our-history__photo {
     justify-content: center;
     flex: 1 1 100%;
@@ -131,19 +131,21 @@
     text-align: center;
   }
   .imagin-cooks__all-cooks {
+    display: flex;
     gap: 5px;
   }
 
   .imagin-cooks__cook img {
-    
     width: 100%;
   }
   .imagin-cooks__chef img {
-    
     width: 100%;
   }
   .imagin-cooks__kitchener img {
-  
     width: 100%;
   }
+}
+.footer {
+  background: url(img/bar.jpeg);
+  background-size: cover;
 }

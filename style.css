@@ -320,9 +320,10 @@
 .dish {
   max-width: 1138px;
   margin: 0 auto;
+  
 }
 .dishes__wrap.wrap {
-  margin: 150px;
+
 }
 .dishes__all-picture {
   display: flex;
